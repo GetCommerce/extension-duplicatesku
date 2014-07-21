@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Getsquare_Duplicatesku>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Getsquare_Duplicatesku>
+    </modules>
+</config>

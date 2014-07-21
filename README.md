@@ -1,0 +1,1 @@
+After duplicating a product in Magento it is possible to navigate away leaving the product with an empty SKU which has the potential to cause issues. This extension populates the SKU field with a string based on the server time at the time of duplicating. Obviously the user should ovewrite this SKU with an appropriate value.
