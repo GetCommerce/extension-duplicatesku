@@ -5,7 +5,7 @@ class Getsquare_Duplicatesku_Model_Observer
      * Prepare product for duplicate action.
      *
      * @param Varien_Event_Observer $observer
-     * @return object
+     * @return void
      */
 
     public function duplicate(Varien_Event_Observer $observer) 
