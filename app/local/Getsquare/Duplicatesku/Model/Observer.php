@@ -1,6 +1,4 @@
 <?php
-
-
 class Getsquare_Duplicatesku_Model_Observer
 {
     /**
@@ -10,13 +8,10 @@ class Getsquare_Duplicatesku_Model_Observer
      * @return object
      */
 
-public function duplicate(Varien_Event_Observer $observer) {
-
-    $stamp = date("Ymdhis");
-
-    $product=$observer->getEvent()->getNewProduct();
-    $product->setSku("Unique-sku-" . $stamp);
-
-    return $this;
-}
+    public function duplicate(Varien_Event_Observer $observer) 
+    {
+        $stamp = date('Ymdhis');
+        $product = $observer->getEvent()->getNewProduct();
+        $product->setSku('Unique-sku-' . $stamp);
+    }
 }
